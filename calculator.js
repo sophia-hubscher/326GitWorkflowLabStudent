@@ -4,20 +4,20 @@
 function calculateSquareRoot(value) {
     
     // return the square root of the value
+    return Math.sqrt(value);
 }
 
 // TODO: Implement square function
 function calculateSquare(value) {
     // Hint: Use exponentiation
     // return the square root of the value
-
+    return value ** 2;
 }
 
-// TODO: FIX reciprocal function
-function calculateReciprocal() {
+function calculateReciprocal(value) {
     // Hint: Reciprocal is 1/x
-    // return the square root of the value
-    return 1* value;
+    // return the reciprocal value
+    return 1 / value;
 
 }
 
@@ -40,6 +40,7 @@ function cosine(value) {
 // TODO: Implement tangent function
 function tangent(value) {
     // return the tangent of the value
+    return Math.tan(value);
 }
 
 
@@ -48,5 +49,6 @@ function tangent(value) {
 module.exports = {
     calculateSquareRoot,
     calculateSquare,
-    calculateReciprocal
+    calculateReciprocal,
+    tangent
 };

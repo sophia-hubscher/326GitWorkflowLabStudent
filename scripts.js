@@ -51,6 +51,10 @@ function runReciprocal() {
 function runSine() {
     const v = sine(display.value);
     display.value = v;
-    
+}
+
+function runTangent() {
+    const v = tangent(display.value);
+    display.value = v;
 }
 
