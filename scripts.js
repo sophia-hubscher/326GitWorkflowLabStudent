@@ -48,5 +48,8 @@ function runReciprocal() {
 }
 
 // TODO: Implement run your functions here
-
+function runTangent() {
+    const v = tangent(display.value);
+    display.value = v;
+}
 
