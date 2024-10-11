@@ -67,7 +67,7 @@ document.addEventListener('keydown', function(event) {
     } else if (key === 'Backspace') {
         deleteLast(); // Delete last character on Backspace key
     } else if (key === 'c') {
-        clearDisplay(); // Clear display on Esc key
+        clearDisplay(); // Clear display on c key
     } else if (key === '.') {
         appendToDisplay('.');
     }
