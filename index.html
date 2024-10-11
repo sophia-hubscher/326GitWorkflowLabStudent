@@ -6,26 +6,72 @@
     <title>JS Calculator</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
         }
+
         #calculator {
-            width: 400px;
-            margin: 0 auto;
+            width: 100%;
+            max-width: 360px;
+            background-color: #fff;
             padding: 20px;
-            border: 2px solid #000;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            border: none;
         }
-        button {
-            width: 60px;
-            height: 40px;
-            font-size: 18px;
-        }
+
         input {
-            width: 360px;
-            height: 40px;
+            width: 100%;
+            height: 50px;
             text-align: right;
-            font-size: 18px;
+            font-size: 24px;
+            margin-bottom: 20px;
+            border: 2px solid #ccc;
+            border-radius: 8px;
+            padding: 10px;
+            box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.05);
         }
+
+        button {
+            width: 80px;
+            height: 60px;
+            font-size: 20px;
+            background-color: #007BFF;
+            color: #fff;
+            border: none;
+            border-radius: 8px;
+            margin: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        button:active {
+            background-color: #003f7f;
+            box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        @media (max-width: 400px) {
+            button {
+                width: 70px;
+                height: 50px;
+                font-size: 18px;
+            }
+            input {
+                font-size: 20px;
+            }
+        }
+
+        
     </style>
 </head>
 <body>
