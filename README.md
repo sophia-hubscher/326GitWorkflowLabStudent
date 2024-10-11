@@ -43,7 +43,7 @@ ensuring the production branch is reliably functional.
 - [ ] Improve the design (CSS styling)
 - [ ] Fix reciprocal function
 - [ ] Implement sine function
-- [ ] Implement cosine function
+- [x] Implement cosine function
 - [ ] Implement tangent function
 
 ## How to Set Up The Lab
