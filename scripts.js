@@ -48,5 +48,9 @@ function runReciprocal() {
 }
 
 // TODO: Implement run your functions here
-
+function runSine() {
+    const v = sine(display.value);
+    display.value = v;
+    
+}
 
